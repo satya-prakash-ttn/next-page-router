@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+nav a {
+  padding: 10px;
+}
+.container{
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.pagination {
+  text-align: center;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
