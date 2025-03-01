@@ -9,6 +9,8 @@ const Header = () => {
                 <Link href="/products">Products</Link>
                 <Link href="/teachers">Teachers</Link>
                 <Link href="/students">Students</Link>
+                <Link href="/clientsidefetching">CSR</Link>
+                <Link href="/serversidefetching">SSR</Link>
                 <Link href="/login">Login</Link>
             </nav>
         </header>
