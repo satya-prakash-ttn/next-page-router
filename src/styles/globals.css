@@ -34,3 +34,112 @@ td, th {
   border: 1px solid #ddd;
   padding: 5px;
 }
+
+
+
+.google-login-btn {
+  padding: 10px 20px;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.google-login-btn:hover {
+  background-color: #357ae8;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #db4437;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background-color: #c1351d;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  margin: 26px auto;
+  font-size: 28px;
+}
+p {
+  margin: 15px auto;
+}
+
+.users-container {
+  max-width: 1200px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+
+.title {
+  font-size: 2.5rem;
+  margin: 10px auto;
+  color: #4A90E2;
+}
+
+
+.users-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+
+.user-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+
+.user-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px auto;
+}
+
+.user-email,
+.user-phone {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.user-location {
+  font-size: 1rem;
+  color: #4A90E2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.user-location:hover {
+  color: #003366;
+}
