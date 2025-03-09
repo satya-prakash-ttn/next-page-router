@@ -12,6 +12,9 @@ const Header = () => {
                 <Link href="/clientsidefetching">CSR</Link>
                 <Link href="/serversidefetching">SSR</Link>
                 <Link href="/login">Login</Link>
+                <Link href="/loggingCache">Logging Cache</Link>
+                <Link href="/posts">Revalidate Cache</Link>
+                <Link href="/popup">Popup</Link>
             </nav>
         </header>
     );
