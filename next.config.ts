@@ -12,3 +12,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   
 })
+module.exports = {
+  images: {
+    domains: ['fastly.picsum.photos','via.placeholder.com', 'jsonplaceholder.typicode.com'],
+  },
+}

@@ -15,6 +15,8 @@ const Header = () => {
                 <Link href="/loggingCache">Logging Cache</Link>
                 <Link href="/posts">Revalidate Cache</Link>
                 <Link href="/popup">Popup</Link>
+                <Link href="/imagelist">Image</Link>
+                <Link href="/newrevalidate">newrevalidate</Link>
             </nav>
         </header>
     );
